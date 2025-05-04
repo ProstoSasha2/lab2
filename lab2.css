@@ -1,0 +1,45 @@
+body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.task-list {
+    padding: 20px 30px;
+    width: 320px;
+}
+
+.task-list h2 {
+    color: green;
+    text-align: center;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid;
+}
+
+.task-list .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: gray;
+}
+
+.task-list {
+    font-size: 16px;
+    color: #494848;
+}
+
+.task-list li.completed .icon {
+    color: green;
+}
+
+.task-list li.completed .text {
+    color: green;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
